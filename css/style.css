@@ -128,3 +128,11 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
 @media(prefers-reduced-motion:reduce){
   *,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}
 }
+
+
+/* Lien de connexion dans le menu. */
+.main-nav .nav-login{border:1px solid var(--teal);border-radius:3px;padding:10px 14px;color:var(--teal);font-weight:700;transition:background .18s,color .18s}
+.main-nav .nav-login:hover{background:var(--teal);color:#fff}
+@media(max-width:800px){.main-nav .nav-login{text-align:center;margin-top:8px}
+.auth-section{padding-bottom:80px}.auth-card{max-width:480px;margin:0 auto;padding:30px;background:var(--cream);border:1px solid var(--line);display:grid;gap:18px}.auth-card h2{margin:0;font:700 24px var(--display)}
+.auth-card .form-row{display:flex;flex-direction:column;gap:7px}.auth-card label{font-size:12px;font-weight:700}.auth-card input{width:100%;border:1px solid var(--line);border-radius:3px;background:#fffefa;padding:13px 14px;font:13px var(--sans);color:var(--ink)}.auth-card .form-note{margin:0;padding:13px;background:#fffefa;color:var(--muted);font-size:12px;line-height:1.6}
